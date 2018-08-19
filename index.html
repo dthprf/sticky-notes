@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Sticky Notes</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+</head>
+
+<body onload="main()">
+
+    <div class="sidenav">
+        <button class="button" id="newNoteButton">New Note</button>
+        <button class="button" id="clear">Clear LS</button>
+        <img id="sideLogo" src="img/smallLogo.png" alt="smallLogo">
+    </div>
+
+    <ul id="notesContainer">
+
+    </ul>
+
+    <script src="js/main.js"></script>
+    <script src="js/StickyNotesModel.js"></script>
+    <script src="js/NotesView.js"></script>
+    <script src="js/NotesController.js"></script>
+    <script src="js/Note.js"></script>
+
+</body>

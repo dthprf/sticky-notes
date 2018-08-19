@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 100%;
+    margin: 3em;
+    background: #666;
+    background-image: url(../img/stickynotesbackgroundLogo.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat:no-repeat;
+    color: #fff;
+}
+
+#notesContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    padding-top: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#sideLogo {
+    display: block;
+    position: absolute;
+    bottom: 45px;
+    left: 20px;
+    width: 70%;
+    opacity: 0.3;
+}
+
+#sideLogo:hover {
+    opacity: 1;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    border: none;
+    background-color: transparent;
+    display: block;
+    margin: auto;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.button:hover {
+    color: #f1f1f1;
+}
+
+.button:focus {
+    outline: none;
+}
+
+h2, p {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ul, li {
+    list-style: none;
+}
+
+ul {
+    overflow: hidden;
+    padding: 3em;
+}
+
+ul li {
+    text-decoration: none;
+    color: #000;
+    background: #ffc;
+    display: block;
+    height: 13em;
+    width: 13em;
+    padding: 1em;
+    /* Firefox */
+    -moz-box-shadow: 5px 5px 7px rgba(33, 33, 33, 1);
+    /* Safari+Chrome */
+    -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+    /* Opera */
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+}
+
+ul li {
+    margin: 1em;
+    float: left;
+}
+
+textarea {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    font-family: Gaegu;
+    font-size: 20px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.fas {
+    display: flex;
+    justify-content: center;
+    margin-top: -34px;
+    color: black;
+    font-size: 28px;
+}
+
+.hide {
+    display: none;
+}
